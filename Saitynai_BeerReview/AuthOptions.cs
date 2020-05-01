@@ -12,7 +12,7 @@ namespace Saitynai_BeerReview
         public const string ISSUER = "BeerReviews";
         public static string KEY = "asd1231asd123213dasd1sdas";
         public const int LIFETIME = 60;
-        public const string AUDIENCE = "DUXAI";
+        public const string AUDIENCE = "asd";
         public static SymmetricSecurityKey GetSymmetricSecurityKey()
         {
             return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(KEY));
